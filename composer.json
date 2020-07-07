@@ -1,0 +1,10 @@
+{
+    "autoload": {
+      "psr-4": {
+        "Core\\": "src/Core"
+      }
+    },
+    "require": {
+      "texlab/mydb": "^0.0.4"
+    }
+  }

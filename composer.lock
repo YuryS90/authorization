@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "0530b398a6a8523c7eacad84eededdeb",
+    "packages": [
+        {
+            "name": "texlab/mydb",
+            "version": "v0.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/andy-aa/mydb.git",
+                "reference": "166a17108c411e365144726194afd73de1d0200a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/andy-aa/mydb/zipball/166a17108c411e365144726194afd73de1d0200a",
+                "reference": "166a17108c411e365144726194afd73de1d0200a",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mysqli": "*",
+                "php": "^7.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "TexLab\\MyDB\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "The lightweight MySql database library",
+            "keywords": [
+                "data",
+                "mysql",
+                "object",
+                "orm",
+                "php"
+            ],
+            "time": "2019-10-31T17:06:12+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

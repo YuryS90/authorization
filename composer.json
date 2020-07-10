@@ -1,10 +1,14 @@
 {
-    "autoload": {
-      "psr-4": {
-        "Core\\": "src/Core"
-      }
-    },
-    "require": {
-      "texlab/mydb": "^0.0.4"
+  "autoload": {
+    "psr-4": {
+      "Core\\": "src/Core"
     }
+  },
+  "require": {
+    "texlab/mydb": "^0.0.4"
+  },
+  "scripts": {
+    "idb": "php install/install.php",
+    "rs": "php -S localhost:8000 -t public/"
   }
+}

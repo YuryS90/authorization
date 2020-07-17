@@ -27,6 +27,8 @@ class Login
         );
     }
 
+
+    //1 способ
     // public function userCheck(string $login, string $password): bool
     // {
     //     $result =  !empty($this->table->runSQL(
@@ -38,6 +40,7 @@ class Login
     // }
 
 
+    //2 способ
     /**
      * Выполняет запрос к БД и проверяет существование того или иного пользователя
      */
